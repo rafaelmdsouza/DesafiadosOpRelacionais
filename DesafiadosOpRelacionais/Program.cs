@@ -16,9 +16,12 @@ else if (notaRecu)
 else
     Console.WriteLine($"Você foi reprovado.");
 
+Console.WriteLine("------------------------------------------------------");
 
 // OPERADOR TERNÁRIO
 
+Console.WriteLine("OPERADOR TERNÁRIO");
+Console.WriteLine();
 Console.WriteLine("Digite sua nota:");
 double TNota = double.Parse(Console.ReadLine());
 
